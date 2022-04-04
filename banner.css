@@ -2,21 +2,27 @@ html {
     width: 100%;
 }
 
-header {
-    background-image: linear-gradient(to right, rgb(201, 17, 170), rgb(73, 17, 116));
-    max-width: 1440px;
+.banner {
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+
 }
 
 .banners-catalog {
+    background-image: url("assets/main.jpg");
+    border-radius: 50%;
+    max-width: 1500px;
+    min-height: 370px;
+}
+
+.banners-catalog-circle {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.banners-catalog-custom {
-    background: white;
-}
-
-.banners-catalog-custom__circle, .banners-catalog-custom__circle2 {
+.banners-catalog-circle-fir, .banners-catalog-circle-sec {
     height: 50px;
     width: 50px;
     background-color: #bbb;
@@ -27,6 +33,11 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+.banners-catalog-circle-sec {
+
+}
+
 
 .banners-catalog-custom__img {
     max-width: 1440px;
@@ -39,4 +50,8 @@ header {
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
+}
+
+@media screen  and (min-width: 1024px) and (max-width: 1280px) {
+
 }
