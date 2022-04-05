@@ -15,6 +15,13 @@ header {
     width: 100%;
 }
 
+.header{
+    width: 98%;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -270,4 +277,5 @@ header {
     .banner-catalog-circle {
         display: none;
     }
+
 }
